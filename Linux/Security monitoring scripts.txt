@@ -1,0 +1,34 @@
+#!/bin/bash
+
+mkdir -p  /var/backup
+
+tar cvf /var/backup/home.tar /home 
+
+mv /var/backup/home.tar /var/backup/home.01012020.tar
+
+ls -lh /var/backup > /var/backup/file_report.txt
+
+free -h > /var/backup/disk_report.txt 
+
+
+
+#!/bin/bash
+lynis audit --test-from-group malware,authentification,networking,storage,filesystems > /tmp/lynis.partial_scan.log
+
+
+
+#!/bin/bash
+
+lynis audit system > /tmp/lynis.system_scan.log
+
+
+
+#!/bin/bash
+
+apt update -y
+
+apt upgrade -y
+
+apt full-upgrade -y
+
+apt autoremove --purge -y

@@ -1,0 +1,12 @@
+!/bin/bash
+# this will print all system freespace in human readable form to free_mem.txt
+free -h > ~/Backups/freemem/free_mem.txt
+
+# this will print disk use report in human format to disk_use.txt 
+du -h > ~/Backups/diskuse/disk_use.txt
+
+# this will print open files to open_list.txt
+lsof > ~/Backups/openlist/open_list.txt
+
+# this will print file system disk space stats in human format to free_disk.txt
+df -h > ~/Backups/freedisk/free_disk.txt
