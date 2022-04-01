@@ -81,7 +81,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-https://drive.google.com/file/d/19GFiFsv-L0L8y1G4AVUpFlOx7SvHkYX4/view?usp=sharing
+https://github.com/justinsiple/UofM-CBSexperience/blob/main/Diagrams/Docker%20containers%20open.png
 
 
 
@@ -111,7 +111,7 @@ SSH into the control node and follow the steps below:
 - The playbooks are files "filebeat-ansible.yml" and "metricbeat-ansible.yml" and are saved in ~/etc/ansible
 - The file and location of that hosts file that needs to be updated to run the playbooks and ELK server on specific machines is ~/etc/ansible/hosts. To then determine with machines each playbook will be run on we will add those local IP addresses under the [webserver] or [elk] headings as shown in the attached screen shot. 
 
-
+https://github.com/justinsiple/UofM-CBSexperience/blob/main/Diagrams/Hosts%20file%20updates%20for%20playbooks.png
 
 - To ensure everything is running properly navigate to http://[your.VM.IP]:5601/app/kibana
 
