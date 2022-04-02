@@ -19,14 +19,14 @@ This document contains the following details:
 
 ### Description of the Topology
 
-The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the Damn Vulnerable Web Application.
+The main purpose of this network is to expose a load-balanced and monitored instance of DVWA (Damn Vulnerable Web Application).
 
 Load balancing ensures that the application will be highly optimized, in addition to restricting open access to the network.
 To this point, a load balancer can help protect our network from DOS attacks by spreading any requests out over a larger processing ability.
 They also can be set up with inbound and outbound rules in place that will help to restrict what types of traffic are allowed thus 
 limiting what a hacker could gain control of.  
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the files and system metrics.
+Integrating an ELK server allows users to easily monitor the vulnerabilities of VMs for changes to the files and system metrics.
 Filebeat watches all of our log files and events and sends them to Elasticsearch for indexing. 
 Metricbeat does this same task with the computer metric running on our system. 
 
@@ -46,7 +46,7 @@ Access Policies
 
 The machines on the internal network are not exposed to the public Internet. 
 
-Only the load balancer and jumpbox machines can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
+Only the load balancer and jumpbox machines can accept connections from the Internet. Access to these machines is only allowed from the following IP addresses:
 The jumpbox only from IP 24.179.181.32
 The load balancer from IP 24.179.181.32
 
@@ -57,7 +57,7 @@ A summary of the access policies in place can be found in the table below.
 
 | NAME          | PUBLIC ACCESS | ALLOWED IP'S            |
 |---------------|---------------|-------------------------|
-| Jump box      | No            | 24.179.181.32           |
+| Jump box      | Yes           | 24.179.181.32           |
 | ELK server    | No            | 20.211.165.109 10.0.0.4 |
 | Load balancer | Yes           | All through port 80     |
 | Web-1         | No            | 20.227.0.189            |
