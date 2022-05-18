@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-https://github.com/justinsiple/UofM-CBSexperience/blob/main/Diagrams/Network.drawio
+https://github.com/justinsiple/UofM-CBSexperience/blob/main/Diagrams/Diagram%20of%20ELK%20network%20with%20VM's.png
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to recreate the entire deployment pictured above or select portions of the file may be used to install only certain pieces of it, such as Filebeat.
 
