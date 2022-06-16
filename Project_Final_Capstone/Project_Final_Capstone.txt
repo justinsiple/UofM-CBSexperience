@@ -1,6 +1,7 @@
 https://docs.google.com/document/d/1dgZiJQ5rMq-YUs1kgasf1nYPm5ruoNrss8e7IqKMGRM/edit?usp=sharing  Blue Team
 https://docs.google.com/document/d/1D4vfs-hfI1Jqv4Hkf048LVkkZS5sBbKqODOs6ROy4ho/edit?usp=sharing  Red Team
 https://docs.google.com/document/d/1oZFBgACEnh7CXugfN_FjAuN-Ac6Zef4aA-TFWB354dA/edit?usp=sharing  Network Analysis
-https://docs.google.com/presentation/d/1mn6s619dX55a_pz_WUnqyG0jNi2VJkAWY7JppmBW2nU/edit?usp=sharing  Presentation
+https://docs.google.com/presentation/d/1VnNcIFbYX3PNuSFZLVvRbCBXubWIFCM-V4JIiPP0RUk/edit?usp=sharing  Presentation
 
-Copy and paste links into browser.  Blue Team, Red Team, and Netrwork Analysis was done alone and the Presentation was done as a group. 
+
+Copy and paste links into browser.  Blue Team, Red Team, and Netrwork Analysis were done alone and the Presentation was done as a group. 
